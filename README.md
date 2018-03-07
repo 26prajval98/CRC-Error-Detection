@@ -5,7 +5,8 @@ Members
 ## Ishaan R Dharamdas (16CO117)
 ## Prajval M (16CO234)
 
-## Problem Statement
+Problem Statement
+---
 
 CRC code analysis of % error detection and correction w.r.t input data words for 1, 2, ... n-bit errors and for 2-7-bit divisors.
 
@@ -13,11 +14,6 @@ What it does
 ---
 
 For a given dataword and a specified set of CRCN in the main.m, %error detection and correction will be outputted in the bar graph.
-
-Members:
----
-# Ishaan R Dharamdas  (16CO117)
-# Prajval M           (16CO234)
 
 File Contents
 ---
