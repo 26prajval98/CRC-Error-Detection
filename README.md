@@ -26,4 +26,4 @@ Input the dataword vector Eg [ 1 1 0 1 0 ]
 
 The following image will provide an idea
 
-<img src="images/input.png">
+<img src="images/input.PNG">
