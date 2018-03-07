@@ -1,4 +1,4 @@
-# CRC2 to 7 
+# CRC-2-7 
 
 What it does
 ---
