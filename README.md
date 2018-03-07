@@ -56,7 +56,7 @@ The output of perDetect are 3 row matrices errors depicting detectedErrors, tota
 In main.m, the dataword and N for CRCN are given as input. This generates all codewords corresponding to each generator from CRCN.
 For each generator perDetect is used to find the 2...lenCW bit error err (detected errors), total (total errors) and pro (probablity of error correction). dataT will be a 2D matrix representing the %error detection where kth column is for k+1 error bits. Similarly is prob. They are transposed and each row of transposed matrix is given as input to the bar graph generator as we want to compare k bit errors for all the generators.
 
-<img src="images/MAIN_1.PNG" width="25%">
+<img src="images/MAIN_1.PNG">
 
 OUTPUT
 ===
