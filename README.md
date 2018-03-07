@@ -55,7 +55,7 @@ For each i, all combinations of i numbers from 1 to lenCW are chosen which resul
 Matrix A has i columns and rows equal to number of combinations possible. In each row the column depicts the location where error must be commited. This is done by inverting the bit. A dummy variable x is generated for each row in A which is initialised to the codeword everytime the loop is run.
 So for each row in A the i bit errors are created. This codeword with errors are passed on to the detector and if the errored codeword is detected then detectedErrors is incremented by 1 and Errors is incremented by 1 else only Errors is incremented by 1. The output of this are detectedErrors and Errors. This is shown in the image below
 
-<img src="images/generate_errors.png">
+<img src="images/generate_error.png">
 
 The detectedErrors and Errors are added to the next column of errors and total_error.
 
