@@ -63,6 +63,6 @@ OUTPUT
 
 The output of the program will be a series of bar graphs. The X coordinate contains the generators and the y coordinate contains % error detection.
 
-<img src="images/graph1.PNG" width="45%">
+<img src="images/graph1.PNG" width="90%">
 
-<img src="images/graph1.PNG" width="45%">
+<img src="images/graph1.PNG" width="90%">
