@@ -5,15 +5,11 @@
 
 %output:
 
-%errors is a 2d array containing in each row for the corresponding
-%generator and columns representing k+1 bit error detected
+%errors is a 1d array containing detectedError where kth column reperesents the number of detectedErrors if (k+1) bit errors are caused
 
-%total_error is a 2d array containing in each row for the corresponding
-%generator and columns representing total k+1 bit error
+%total_error is a 1d array containing total number of errors where kth column reperesents the number of total errors if (k+1) bit errors are caused
 
-
-%pec is a 2d array containing in each row for the corresponding
-%generator and columns representing probablity of k+1 bit error detection
+%pec is a 1d array containing probablity of correcting where kth column reperesents the probablity of correcting if (k+1) bit errors are caused
 
 function [errors, total_error, pec]  = perDetect(codeword, generator)
     %length of generator
