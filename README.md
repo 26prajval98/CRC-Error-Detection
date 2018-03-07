@@ -14,6 +14,11 @@ What it does
 
 For a given dataword and a specified set of CRCN in the main.m, %error detection and correction will be outputted in the bar graph.
 
+Members:
+---
+# Ishaan R Dharamdas  (16CO117)
+# Prajval M           (16CO234)
+
 File Contents
 ---
 
@@ -27,7 +32,7 @@ generate.m
 detect.m
 ```
 
-Inputting
+Input
 ===
 Run main.m in MATLAB, input N to select the CRC. E.g. if you want to use CRC4 then input 4. 
 

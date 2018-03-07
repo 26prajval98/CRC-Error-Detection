@@ -10,7 +10,7 @@ prob = [];
 
 % CRCN generators
 % Each CRCN matrix has k generators of N bit
-CRC1 = [1 0; 1 1];
+CRC1 = [1 1];
 CRC2 = [1 0 0; 1 0 1];
 CRC3 = [1 0 0 0; 1 0 1 1];
 CRC4 = [1 0 0 0 0; 1 0 0 1 1];
