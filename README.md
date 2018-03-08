@@ -71,8 +71,8 @@ For each generator perDetect is used to find the 2...lenCW bit error err (detect
 OUTPUT
 ===
 
-The output of the program will be a series of bar graphs. The X coordinate contains the generators and the y coordinate contains % error detection.
+The output of the program will be a series of bar graphs. The X coordinate contains the generators and the y coordinate contains % error detection. The data on top of each bar represents % error detection and % error correction.
 
 <img src="images/graph1.PNG" width="90%">
 
-<img src="images/graph1.PNG" width="90%">
+<img src="images/graph2.PNG" width="90%">
