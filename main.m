@@ -3,6 +3,7 @@ prob = [];
 
 %CRCN divisors
 %Each CRCN matrix has k divsiors Of N bit
+CRC1 = [1 0; 1 1];
 CRC2 = [1 0 0; 1 0 1];
 CRC3 = [1 0 0 0; 1 0 1 1];
 CRC4 = [1 0 0 0 0; 1 0 0 1 1];
@@ -11,7 +12,7 @@ CRC6 = [1 0 0 0 0 0 0; 1 0 0 1 1 1 1; 1 0 1 1 1 1 1; 1 0 0 0 0 1 1; 1 0 0 1 0 1 
 CRC7 = [1 0 0 0 0 0 0 0; 1 0 0 0 1 0 0 1; 1 0 1 0 1 0 0 1; 1 0 0 0 1 0 1 1];
 
 %Inputting N for CRCN to which dataword has to be converted
-x = input('Which CRC to be used\nEnter from 2 to 7\n');
+x = input('Which CRC to be used\nEnter from 1 to 7\n');
 %Inputting dataword
 dataword = input('Vector dataword\n');%[1 0 0 0 1 1 0 1 1]
 
@@ -20,6 +21,8 @@ Test = [];
 
 %Selecting Required CRC
 switch(x)
+    case 1
+        Test = CRC1;
     case 2 
         Test = CRC2;
     case 3 
@@ -39,7 +42,7 @@ for i = 1:size(Test,1)
     generator = Test(i,:);
     
     %generate each codeword from dataword wrt to the selected generator
-    x = generate(dataword, generator);
+    x = generate(dataword, generator)
     
     %detect all possible errors from 2 to length of codeword
     %err is an array containing number of errors detected from 2 bit to length of codeword
