@@ -76,3 +76,12 @@ The output of the program will be a series of bar graphs. The X coordinate conta
 <img src="images/graph1.PNG" width="90%">
 
 <img src="images/graph2.PNG" width="90%">
+
+LIMITATIONS
+===
+
+If in the input for N, anything other than numbers from 1 to 7 will not run the program.
+
+If the dataword is not inputted as a proper vector, the program will crash.
+
+Giving a dataword that is too big will increase the execution time exponentially as nchoosek is used.
